@@ -8,7 +8,7 @@ import org.xml.sax.Attributes;
 class GestionContenido extends DefaultHandler {  
 	
 	int contador = 0;
-	public GestionContenido(String caracter){   
+	public GestionContenido(){   
 		super();  
 		} 
 	public void startDocument(){
