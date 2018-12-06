@@ -31,5 +31,5 @@ class GestionContenido extends DefaultHandler {
 		String car = new String (ch, inicio, longitud);           
 		car = car.replaceAll("[\t\n]","");            
 		System.out.printf("\tCaracteres: %s %n", car);    
-    }
-	}
+   	 }
+}
